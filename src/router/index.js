@@ -19,7 +19,7 @@ const router = new VueRouter({
     adminRouter,
     {
       path: '/*',
-      redirect:'/movie'
+      redirect:'/movie/nowplaying'
     }
   ]
 })
